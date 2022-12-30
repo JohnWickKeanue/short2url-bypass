@@ -13,7 +13,7 @@ url = "https://short2url.in/RbD40"  #@param {type:"string"}
 def bypass(url):
     client = cloudscraper.create_scraper(allow_brotli=False)
    
-    DOMAIN = "https://technemo.xyz/blog"
+    DOMAIN = "https://techyuth.xyz/blog"
 
     url = url[:-1] if url[-1] == '/' else url
 
@@ -22,7 +22,7 @@ def bypass(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    ref = "https://mytop5.club/"
+    ref = "https://techeysub.online/"
     
     h = {"referer": ref}
 
